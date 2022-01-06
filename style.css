@@ -77,6 +77,7 @@ div img{
 .develop-section{
     display: flex;
     padding-left: 5%;
+    margin-bottom: 100px;
 }
 .develop-img{
     width: 40%;
@@ -88,4 +89,17 @@ div img{
 }
 .develop-content{
     width: 50%;
+}
+
+.community-section{
+    display: flex;
+    padding-left: 10%;
+}
+.community-img{
+    width: 40%;
+    padding-left: 80px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;    
+    background-position: right bottom;
+    background-size: 200px;
 }
