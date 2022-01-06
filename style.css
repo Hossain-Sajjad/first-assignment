@@ -103,3 +103,23 @@ div img{
     background-position: right bottom;
     background-size: 200px;
 }
+footer{
+    text-align: center;
+    background-color: rgb(20, 29, 56);
+    margin-bottom: 0;
+    height: 150px;
+}
+footer h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding-top: 20px;
+}
+footer h5{
+    color:whitesmoke;
+}
+#footer-mission{
+    color: white;
+}
+#footer-2022{
+    color: red;
+}
