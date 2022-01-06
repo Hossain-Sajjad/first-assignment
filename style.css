@@ -5,10 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 40px;
+}
+.top-section{
     height: 400px;
     display: flex;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 40%;
@@ -37,4 +41,51 @@ section{
 div img{
     width: 70%;
     height: 100%;
+}
+
+.mission-heading{
+    text-align: center;
+}
+.mission-elements{
+    display: flex;
+    height: 400px;
+    padding-left: 15%;
+}
+.three-box{
+    width: 25%;
+    height: 80%;
+    background-color: greenyellow;
+    padding-left: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.three-box img{
+    height: 30%;
+    width: 40%;
+}
+
+#mission{
+    background-color: lightcyan;
+}
+#vission{
+    background-color:honeydew;
+}
+#goals{
+    background-color:rgba(255, 217, 222, 0.705);
+}
+
+.develop-section{
+    display: flex;
+    padding-left: 5%;
+}
+.develop-img{
+    width: 40%;
+    padding-left: 80px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;    
+    background-position:left;
+    background-size: 200px;
+}
+.develop-content{
+    width: 50%;
 }
