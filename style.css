@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 h1{
     font-size: 50px;
@@ -24,7 +25,7 @@ h2{
 }
 .left-bordered{
     font-family: 'Playfair Display', serif;
-    border-image: linear-gradient(rgb(240, 77, 13), rgb(161, 27, 4));
+    border-image: linear-gradient(#FF5959, #FF5959);
     border-left: 3px solid;
     border-radius: 10px;
     border-image-slice: 1;
@@ -32,7 +33,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(240, 77, 13), rgb(161, 27, 4));
+    background-color: #FF5959;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -94,6 +95,7 @@ div img{
 .community-section{
     display: flex;
     padding-left: 10%;
+    margin-bottom: 100px;
 }
 .community-img{
     width: 40%;
@@ -103,6 +105,21 @@ div img{
     background-position: right bottom;
     background-size: 200px;
 }
+
+.photographs{
+    display: flex;
+    height: 600px;
+}
+.photographs div{
+    height: 80%;
+    width: 90%;
+    margin-left: 50px;
+
+}
+.photographs-heading{
+    text-align: center;
+}
+
 footer{
     text-align: center;
     background-color: rgb(20, 29, 56);
@@ -114,7 +131,7 @@ footer h3{
     font-size: 30px;
     padding-top: 20px;
 }
-footer h5{
+footer h6{
     color:whitesmoke;
 }
 #footer-mission{
